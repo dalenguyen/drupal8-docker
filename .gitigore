@@ -1,0 +1,4 @@
+# Drupal folders
+drupal/mysql
+drupal/web
+drupal/backup.sql
