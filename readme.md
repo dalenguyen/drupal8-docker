@@ -28,6 +28,16 @@ docker-compose up -d
 docker-compose down
 ```
 
+## Change your hosts file 
+
+Please update your /etc/hosts in order to visit the site and the dashboard
+
+```sh
+## Drupal 8 Docker
+127.0.0.1       drupal8.localhost:8080
+127.0.0.1       portainer.drupal8.localhost:8080
+```
+
 ## Database management
 
 Export database
